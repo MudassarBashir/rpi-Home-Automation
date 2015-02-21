@@ -1,0 +1,19 @@
+Hardware Information
+Raspberry pi Model B+ 512MB
+Current Draw:
+Uses total between 600mA and 2000mA depending on what devices are connected
+to it. For example a wifi dongle, camera module, etc..
+
+I am using a power supply to supply power to it.
+5.1V 1A (1000ma) microUSB
+I should upgrade this to a 2A power supply.
+
+Relay board Information
+8 Channel 
+5.0V 2.5A DC
+each relay sinks 15-20mA driver current so for 8 total that would
+be 20mA * 8relays = 160mA
+I will be feeding this board with it's own dedicated external power supply rated at
+5.0V 2.5A DC
+
+A gpio pin's current load is 16mA max.
